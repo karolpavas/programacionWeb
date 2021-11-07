@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  transition: 0.2s linear;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 5%;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.navegacion {
+  display: flex;
+  gap: 3rem;
+}
+
+.navegacion a {
+  font-size: 1.8rem;
+}
+
+.navegacion a:hover {
+  font-size: 2rem;
+  border-bottom: 1px solid white;
+}
+
+.banner {
+  height: 50rem;
+  background: url("/images/pexels-sippakorn-yamkasikorn-3520690.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo-oscuro {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fondo-oscuro h2 {
+  font-weight: 600;
+  margin: 10rem 0 0 10rem;
+  font-size: 5rem;
+  text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.72);
+}
