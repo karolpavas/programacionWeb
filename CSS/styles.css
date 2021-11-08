@@ -20,6 +20,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+  padding: 2rem 7%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -66,4 +70,40 @@ html {
   margin: 10rem 0 0 10rem;
   font-size: 5rem;
   text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.72);
+}
+.pasos * {
+  color: black;
+  text-align: center;
+}
+.pasos h3 {
+  font-size: 3rem;
+}
+article {
+  border-top: 1px solid gray;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+article h3 {
+  padding-bottom: 2rem;
+}
+
+.fila {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fila .imagen {
+  flex: 1 1 45rem;
+}
+.imagen img {
+  height: 30rem;
+  width: 50rem;
+  object-fit: cover;
+  object-position: center;
+}
+.fila .contenido {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  font-size: 1.2rem;
 }
