@@ -51,10 +51,22 @@ section {
 
 .banner {
   height: 50rem;
-  background: url("/images/pexels-sippakorn-yamkasikorn-3520690.jpg");
+  background: url("../images/pexels-sippakorn-yamkasikorn-3520690.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+  border-bottom: 1px solid gray;
+}
+
+.header_sec * {
+  color: black;
 }
 
 .fondo-oscuro {
