@@ -57,6 +57,7 @@ section {
   background-size: cover;
 }
 
+
 .header_sec {
   display: flex;
   justify-content: space-between;
@@ -87,9 +88,25 @@ section {
   color: black;
   text-align: center;
 }
+
 .pasos h3 {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: left;
 }
+
+.pasos p{
+  font-size: 2rem;
+}
+
+.historias *{
+  color:black;
+  text-align: center;
+}
+
+.pasos h2{
+  font-size: 4.5rem;
+}
+
 article {
   border-top: 1px solid gray;
   padding: 1rem;
