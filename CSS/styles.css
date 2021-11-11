@@ -147,6 +147,7 @@ article h3 {
 .contenededor{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .pIzquierdo{
@@ -211,7 +212,8 @@ article h3 {
 }
 
 .fila_resaltada{
-  background-color:lightgrey;
+  color: black;
+  background-color:#f2f2f2;
 }
 
 .footer{
@@ -220,7 +222,7 @@ article h3 {
 }
 
 td, th {
-  border: 1px solid lightgrey;
+  border: 1px solid #f2f2f2;
   padding: 8px;
 }
 
@@ -233,6 +235,7 @@ td, th {
 
 .formulario * {
   color: black;
+  font-size: 1.5rem;
 }
 
 .formulario p {
@@ -339,4 +342,50 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* Clases para animación */
+
+.contenedorBarco{
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+@keyframes movimiento {
+  0%   {left:0;}
+  100% {left:100%;}
+}
+
+@keyframes movimientoTiburon {
+  0%   {left:-10%;}
+  100% {left:110%;}
+}
+
+.barco{
+  position: absolute;
+  top: 0;
+  left:0;
+  animation: movimiento 20s infinite;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.tiburon{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  animation: movimientoTiburon 20s infinite;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.tiburon img{
+  height: 50px;
+  transform: scaleX(-1);
+}
+
+.barco img{ 
+  height: 100px;
+
 }
