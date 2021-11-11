@@ -45,8 +45,12 @@ section {
 }
 
 .navegacion a:hover {
+  padding: 1rem 2rem;
   font-size: 2rem;
-  border-bottom: 1px solid white;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: lightcoral;
+  color: whitesmoke;
 }
 
 .banner {
@@ -87,9 +91,25 @@ section {
   color: black;
   text-align: center;
 }
+
 .pasos h3 {
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: left;
 }
+
+.pasos p {
+  font-size: 2rem;
+}
+
+.historias * {
+  color: black;
+  text-align: center;
+}
+
+.pasos h2 {
+  font-size: 4.5rem;
+} 
+
 article {
   border-top: 1px solid gray;
   padding: 1rem;
@@ -118,4 +138,205 @@ article h3 {
   flex: 1 1 45rem;
   padding: 2rem;
   font-size: 1.2rem;
+}
+
+.historias *{
+  color: black;
+}
+
+.contenededor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pIzquierdo{
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.pDerecho{
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.historiasTitulo {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.historiasContenido {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.historiasH2Izq {
+  text-align: left;
+  font-size: 4rem;
+}
+
+.historiasH3Izq {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.historiasH2Der {
+  text-align: right;
+  font-size: 4rem;
+}
+
+.historiasH3Der {
+  text-align: right;
+  font-size: 2rem;
+}
+
+.historiasImageIzq{
+  max-width: 250px;
+  margin-right: auto;
+  display: block;
+}
+
+.historiasImageDer{
+  max-width: 250px;
+  margin-left: auto;
+  display: block;
+}
+
+.tabla *{
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  vertical-align: bottom;
+}
+
+.fila_resaltada{
+  background-color:lightgrey;
+}
+
+.footer{
+  color: black;
+  font-size: 1.2rem;
+}
+
+td, th {
+  border: 1px solid lightgrey;
+  padding: 8px;
+}
+
+
+/* Formulario contacto */
+
+.formulario {
+  margin: 5rem 10rem;
+}
+
+.formulario * {
+  color: black;
+}
+
+.formulario p {
+  font-size: 1.4rem;
+  color: #333;
+  margin: 2rem 0 0;
+}
+.formulario legend {
+  font-size: 2rem;
+  color: #333;
+}
+.formulario label {
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+.formulario input:not([type="submit"]),
+.formulario select,
+.formulario textarea {
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.formulario textarea {
+  height: 20rem;
+}
+.formulario .forma-contacto {
+  max-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formulario input[type="radio"] {
+  margin: 0;
+  width: auto;
+}
+
+.boton {
+  padding: 1rem 2rem;
+  background-color: lightblue;
+}
+
+.boton:hover {
+  cursor: pointer;
+  background-color: lightcoral;
+  color: whitesmoke;
+}
+
+/* Main */
+
+body {
+  background-color: lightblue;
+}
+
+.categorias {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.elemento-categoria {
+  width: 30rem;
+  height: 30rem;
+  background-color: red;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elemento-categoria a {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#inicio {
+  background-image: url("../images/iniciolink.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pasos {
+  background-image: url("../images/pasoslink.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#encuesta {
+  background-image: url("../images/encuestalink.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#historia {
+  background-image: url("../images/historialink.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
