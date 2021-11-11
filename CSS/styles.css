@@ -98,14 +98,9 @@ section {
   font-size: 2rem;
 }
 
-.historias *{
-  color:black;
-  text-align: center;
-}
-
 .pasos h2{
   font-size: 4.5rem;
-}
+} 
 
 article {
   border-top: 1px solid gray;
@@ -136,3 +131,89 @@ article h3 {
   padding: 2rem;
   font-size: 1.2rem;
 }
+
+.historias *{
+  color: black;
+}
+
+.contenededor{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pIzquierdo{
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.pDerecho{
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.historiasTitulo {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
+.historiasContenido {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.historiasH2Izq {
+  text-align: left;
+  font-size: 4rem;
+}
+
+.historiasH3Izq {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.historiasH2Der {
+  text-align: right;
+  font-size: 4rem;
+}
+
+.historiasH3Der {
+  text-align: right;
+  font-size: 2rem;
+}
+
+.historiasImageIzq{
+  max-width: 250px;
+  margin-right: auto;
+  display: block;
+}
+
+.historiasImageDer{
+  max-width: 250px;
+  margin-left: auto;
+  display: block;
+}
+
+.tabla *{
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  vertical-align: bottom;
+}
+
+.fila_resaltada{
+  background-color:lightgrey;
+}
+
+.footer{
+  color: black;
+  font-size: 1.2rem;
+}
+
+td, th {
+  border: 1px solid lightgrey;
+  padding: 8px;
+}
+
+
